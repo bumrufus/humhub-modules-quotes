@@ -1,0 +1,18 @@
+{
+    "id": "quotes",
+    "name": "Quotes",
+    "description": "Adds a panel on the Dashboard and display some quotes",
+    "keywords": ["quote", "quotes", "widget", "dashboard"],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "bumrufus"
+        }
+    ],
+    "homepage": "",
+    "license": "AGPL",
+    "time": "2018-05-07",
+    "humhub": {
+        "minVersion": "1.0"
+    }
+}

@@ -1,0 +1,51 @@
+#quotes body{
+	
+	overflow:hidden;
+}
+
+.item{
+	font-family: sans-serif;
+	color:#555;
+	
+}
+
+.message{
+	font-size: 16px!important;
+	margin:0;
+	font-weight:bold;
+}
+
+.writer{
+	font-size: 12px!important;
+	font-weight:bold;
+}
+
+
+.owl-carousel {
+  max-width: 320px;
+
+	
+}
+.owl-carousel .owl-nav {
+  padding-top: .4em;
+  font-family: sans-serif;
+  font-size: .8em;
+}
+.owl-carousel .owl-nav > div {
+  padding: .4em 1.4em;
+  border: 1px solid #333;
+  background: #000;
+  color: white;
+  border-radius: .4em;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.2));
+  box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.5);
+}
+.owl-carousel .owl-nav > div:hover {
+  background-color: #333;
+}
+.owl-carousel .owl-nav .owl-prev {
+  float: left;
+}
+.owl-carousel .owl-nav .owl-next {
+  float: right;
+}
