@@ -27,10 +27,15 @@ class Assets extends AssetBundle
     ];
 
     public $js = [
+        'http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js',
         'js/humhub.quotes.js'
     ];
 
     public $css = [
-        'css/humhub.quotes.css'
+        'http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css',
+        'http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css',
+        'http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css',
+        'css/humhub.quotes.css',
+       
     ];
 }
