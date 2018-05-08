@@ -1,7 +1,7 @@
 {
     "id": "quotes",
     "name": "Quotes",
-    "description": "Adds a panel on the Dashboard and display some quotes",
+    "description": "Adds a widget on the Dashboard and display some quotes",
     "keywords": ["quote", "quotes", "widget", "dashboard"],
     "version": "1.0.0",
     "authors": [
