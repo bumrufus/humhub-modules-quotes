@@ -6,10 +6,6 @@ use yii\helpers\Html;
 ?>
 
 
-<link rel="stylesheet prefetch" href="http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.css">
-<link rel="stylesheet prefetch" href="http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.theme.default.css">
-<link rel="stylesheet prefetch" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
-
 <div class="panel panel-default" id="quotes">
     <?php echo \humhub\widgets\PanelMenu::widget(array('id' => 'quotes')); ?>
 
@@ -34,5 +30,4 @@ use yii\helpers\Html;
     </div>
 </div>
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.js"></script>
+
