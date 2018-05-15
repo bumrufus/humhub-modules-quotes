@@ -28,7 +28,7 @@ class Assets extends AssetBundle
 
     public $js = [
         'http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js',
-        'js/humhub.quotes.js'
+        
     ];
 
     public $css = [
