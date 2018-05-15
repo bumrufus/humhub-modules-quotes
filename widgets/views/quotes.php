@@ -5,6 +5,35 @@ use yii\helpers\Html;
 \humhub\modules\quotes\assets\Assets::register($this);
 ?>
 
+<script>
+$(document).on('humhub:ready', function() {
+ var owl = $('#owlRandom');
+
+ if(!owl.length) {
+  return;
+ }
+
+ owl.owlCarousel({
+  loop: true,
+   callbacks:true,
+   autoplay: true,
+   autoplayTimeout: 50000,
+   items: 1,
+   nav: false,
+   autoplayHoverPause: false,
+   animateOut: 'fadeOutDown',
+   animateIn: 'fadeInDown',
+  onInitialize : function(element){
+   owl.children().sort(function(){
+    return Math.round(Math.random()) - 0.5;
+   }).each(function(){
+    $(this).appendTo(owl);
+   });
+  },
+ });
+});
+	
+</script>
 
 <div class="panel panel-default" id="quotes">
     <?php echo \humhub\widgets\PanelMenu::widget(array('id' => 'quotes')); ?>
