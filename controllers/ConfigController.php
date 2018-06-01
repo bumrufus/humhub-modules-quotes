@@ -77,7 +77,6 @@ class ConfigController extends Controller
             $form->quote12 = Setting::Set('quote12', $form->quote12, 'quotes');
             $form->writerquote11 = Setting::Set('writerquote11', $form->writerquote11, 'quotes');
             $form->writerquote12 = Setting::Set('writerquote12', $form->writerquote12, 'quotes');
-            
 
             /* ToDo: integrate list from most-active-users at a specific user amount */
 
