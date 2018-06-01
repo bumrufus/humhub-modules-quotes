@@ -49,7 +49,6 @@ class ConfigController extends Controller
         $form->quote12 = Setting::Get('quote12', 'quotes');
         $form->writerquote11 = Setting::Get('writerquote11', 'quotes');
         $form->writerquote12 = Setting::Get('writerquote12', 'quotes');
-       
 
         if ($form->load(Yii::$app->request->post()) && $form->validate()) {
             $form->panelTitle = Setting::Set('panelTitle', $form->panelTitle, 'quotes');
@@ -80,7 +79,7 @@ class ConfigController extends Controller
             $form->writerquote12 = Setting::Set('writerquote12', $form->writerquote12, 'quotes');
             
 
-/* ToDo: integrate list from most-active-users at a specific user amount */
+            /* ToDo: integrate list from most-active-users at a specific user amount */
 
             Yii::$app->getSession()->setFlash('data-saved', Yii::t('AdminModule.controllers_SettingController', 'Saved'));
             $this->redirect(['/quotes/config/config']);
