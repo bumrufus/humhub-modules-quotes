@@ -8,13 +8,6 @@ use humhub\models\Setting;
 use humhub\modules\user\components\Session;
 use yii\web\HttpException;
 
-/**
- * Shows newly registered members as sidebar widget on the dashboard
- *
- * @package humhub.modules_core.directory.widgets
- * @since 0.11
- * @author Andreas Strobel
- */
 class QuotesSidebarWidget extends \yii\base\Widget
 {
 
