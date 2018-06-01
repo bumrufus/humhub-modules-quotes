@@ -1,9 +1,11 @@
 <?php
+
 namespace humhub\modules\quotes\forms;
 
 use Yii;
+use yii\base\Model;
 
-class QuotesConfigureForm extends \yii\base\Model
+class QuotesConfigureForm extends Model
 {
 
     public $panelTitle;
@@ -37,8 +39,6 @@ class QuotesConfigureForm extends \yii\base\Model
     {
         return [
             [['panelTitle', 'height', 'quote1', 'quote2', 'writerquote1', 'writerquote2', 'quote3', 'quote4', 'writerquote3', 'writerquote4', 'quote5', 'quote6', 'writerquote5', 'writerquote6', 'quote7', 'quote8', 'writerquote7', 'writerquote8', 'quote9', 'quote10', 'writerquote9', 'writerquote10', 'quote11', 'quote12', 'writerquote11', 'writerquote12'], 'required'],
-            
-
         ];
     }
 
