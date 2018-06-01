@@ -6,7 +6,7 @@ use yii\helpers\Html;
 ?>
 
 <script>
-$(document).on('humhub:ready', function() {
+$(document).on('ready pjax:success', function(){
  var owl = $('#owlRandom');
 
  if(!owl.length) {
