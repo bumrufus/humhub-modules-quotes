@@ -7,12 +7,7 @@ use humhub\modules\admin\components\Controller;
 use humhub\modules\quotes\forms\QuotesConfigureForm;
 use humhub\models\Setting;
 
-/**
- * Defines the configure actions.
- *
- * @package humhub.modules.onlineusers.controllers
- * @author Marjana Pesic
- */
+
 
 class ConfigController extends Controller
 {
@@ -80,7 +75,7 @@ class ConfigController extends Controller
 			$form->writerquote12 = Setting::Set('writerquote12', $form->writerquote12, 'quotes');
             
 
-/* ToDo: integrate list from most-active-users at a specific user amount */
+
 
             Yii::$app->getSession()->setFlash('data-saved', Yii::t('AdminModule.controllers_SettingController', 'Saved'));
             $this->redirect(['/quotes/config/config']);
