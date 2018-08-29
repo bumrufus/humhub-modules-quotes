@@ -9,13 +9,7 @@ use yii\helpers\Url;
 use yii\web\HttpException;
 use yii\base\Widget;
 
-/**
- * Shows newly registered members as sidebar widget on the dashboard
- *
- * @package humhub.modules_core.directory.widgets
- * @since 0.11
- * @author Andreas Strobel
- */
+
 class QuotesSidebarWidget extends Widget
 {
 
